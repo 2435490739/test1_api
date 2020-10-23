@@ -2,6 +2,7 @@
 
 import requests
 import json
+import logging
 
 s = requests.session()
 
@@ -11,3 +12,4 @@ headers = {"Content-Type": "application/json"}
 
 r =s.post(url=url,data=json.dumps(data),headers=headers)
 print r.text
+logging.info("登录成功")
