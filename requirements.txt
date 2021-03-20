@@ -19,7 +19,7 @@ greenlet==0.4.17
 idna==2.10
 importlib-metadata==2.0.0
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 lxml==4.6.1
 macholib==1.5.1
 MarkupSafe==1.1.1
